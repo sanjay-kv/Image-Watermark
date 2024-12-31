@@ -18,25 +18,38 @@ You can install the required library using pip:
 ```sh```
 
 pip install pillow
-Usage
+# Usage
 Clone the repository:
 sh
+
 git clone https://github.com/Ankitaghavate/Image-Watermark.git
+
 cd Image-Watermark
-Run the script:
+
+# Run the script:
+
 python Image-Watermark.py
+
 Follow the prompts to enter the folder path containing images, the watermark image path, position, scale, and opacity.
-Example
+# Example
+
 sh
 Enter Folder Path: /path/to/your/images
+
 Enter Watermark Path: /path/to/your/watermark.png
+
 Enter Position (top-left, top-right, bottom-left, bottom-right, center): bottom-right
+
 Enter Watermark Scale (0.01 to 0.5, e.g., 0.08 for 8%): 0.1
+
 Enter Watermark Opacity (0.1 to 1.0): 0.5
+
 The script will process the images and save the watermarked versions in an output folder within the specified directory.
 
-Contributing
+# Contributing
+
 Feel free to open issues or submit pull requests if you have any improvements or bug fixes.
 
-License
+# License
+
 This project is licensed under the MIT License. See the LICENSE file for more details.
